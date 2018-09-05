@@ -1,5 +1,5 @@
 public class FuzzBuzz {
-  public void fuzzBuzz(int number) {
+  public fuzzBuzz(int number) {
     if(number %3 ==0 && number %5 == 0){
       System.out.println("FuzzBuzz");
       } else if (number%3 ==0){
@@ -11,8 +11,9 @@ public class FuzzBuzz {
       System.out.println(number);
     
     }
-
+    
   }
+  
    
 }
  
